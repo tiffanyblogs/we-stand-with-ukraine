@@ -13,7 +13,7 @@ A simple website badge to show your support for Ukraine.
 <script>
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     //Do something for mobile
-    alert("MOBILE");
+    display: none;
 }else{
     var script = document.createElement('script');
     script.src = "https://cdn.jsdelivr.net/gh/virae/we-stand-with-ukraine@v1.0.1/badge.js";
